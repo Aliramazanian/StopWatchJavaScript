@@ -1,0 +1,40 @@
+body{
+ background: #09b77c;
+ font-family: Arial, Helvetica, sans-serif;
+ height: 100%;
+
+.container {
+width: 800px;
+margin: 30px auto;
+color: wheat;
+text-align: center;
+
+#secend, #tens {
+ color:wheat;
+ font-size: 2rem;
+}
+}
+h1,h2,h3 {
+ font-weight: 100;
+ font-size: 2.5rem;
+ text-transform: capitalize;
+ color: rgb(89, 151, 227);
+}
+button {
+ width: 150px;
+ height: 50px;
+ background: transparent;
+ color: wheat;
+ border: 2px solid wheat;
+ border-radius: 50px;
+ margin-right: 15px;
+ outline: none;
+
+ &:hover {
+  background: wheat;
+  color: #09b77c;
+  font-weight: 800;
+  text-transform: capitalize;
+ }
+}
+}
